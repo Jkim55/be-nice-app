@@ -56,8 +56,33 @@ table {
 */
 
 /*BODY*/
+* {
+}
 
 body {
   background-image: url("mark-twain.jpg");
-  
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin-top: 6vh;
+  margin-bottom: 4vh;
+}
+
+header h1{
+  color: red;
+  font: 400 2em "Kadwa", Helvetica, Arial, sans-serif;
+
+}
+
+div {
+  width: 50%;
+  height: 30%;
+}
+#result h1{
+  color: red;
+  font-size: 2em;
+
+}
+
+button {
+  margin-bottom: 2vh;
 }
